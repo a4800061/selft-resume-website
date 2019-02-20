@@ -1,5 +1,5 @@
 ## selft-resume-website
-selft-resume-website，用react开发的简单的个人简历网站。
+selft-resume-website，用react开发的简单的个人简历网站。适合react新手入门练习。
 ![site](./src/assets/images/site.png)
 
 ## 本地开发  
@@ -17,4 +17,4 @@ npm run build
 或者使用`github pages`、`netlify`、`gitlab pages`免服务器免费部署。
 
 ## 视频课程  
-如果想学习react，我录制了一个完整的[视频课程](http://i.xue.taobao.com/detail.htm?spm=a2174.7365761.39b9.14.NpFkHf&courseId=105412)。
+如果想学习react，这里有一个完整的[视频课程](http://i.xue.taobao.com/detail.htm?spm=a2174.7365761.39b9.14.NpFkHf&courseId=105412)。
