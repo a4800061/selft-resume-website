@@ -1,0 +1,50 @@
+
+.wrap{
+    flex: 1;
+    width: 70%;
+    margin: 0px auto;
+    .brief{
+       text-align: center;
+       h2{
+         padding: 12px 0px;
+         font-size: 20px;
+       }
+       img{
+          width: 150px;
+          height: 150px;
+          border-radius: 120px;
+          margin-top: 20px;
+       }
+       ul{
+        display: flex;
+        justify-content: center;
+         li{
+            padding: 6px 10px;
+            background: rgba(87, 199, 255, 0.1);
+            margin: 12px 5px;
+            border-radius: 3px;
+         }      
+       }
+       p{
+        padding: 12px 0px;
+        color: rgba(0, 0, 0, 0.7);
+      }
+    }
+
+    .work{
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        .title{
+          h3{
+            font-size: 30px;
+            padding-bottom: 12px;
+            color: rgba(0,0,0,.8);
+            font-weight: 400;
+          }
+          p{
+            color: rgba(0, 0, 0, 0.7);
+          }
+        }
+    }
+}

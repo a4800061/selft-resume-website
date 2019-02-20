@@ -1,0 +1,49 @@
+
+.worklist{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+         li{
+            width: 45%;            
+            margin-bottom: 45px;
+            a{
+              display: inline-flex;
+              justify-content: space-between;
+              .cover{
+                img{
+                  width: 100px;
+                  border-radius: 5px;
+                }
+              }
+              .workbrief{
+                text-align: left;
+                padding-left: 15px;
+                h3{
+                  font-size: 18px;
+                  color: rgb(51, 51, 51);
+                }
+                p{
+                  padding: 8px 0px;
+                  color: rgba(0, 0, 0, 0.7);
+                  line-height: 1.8;
+                }
+                .tag{
+                  display: flex;
+                  justify-content: flex-start;
+                  flex-wrap: wrap;
+                  span{
+                    color: rgba(0, 0, 0, 0.55);
+                    font-size: 14px;
+                  }
+                  span:not(:last-child)::after {
+                    content: "•";
+                    padding: 0px 0.5em;
+                  }
+                }
+              }
+            }
+         }
+      }
+}
