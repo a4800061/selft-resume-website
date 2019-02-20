@@ -1,5 +1,5 @@
 ## selft-resume-website
-selft-resume-website，用react开发的简单的个人简历网站。适合react新手入门练习。
+用react开发的简单的个人简历网站。
 ![site](./src/assets/images/site.png)
 
 ## 本地开发  
